@@ -36,4 +36,4 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-php-
     - name: Execute tests (Unit and Feature tests) via PHPUnit
-      run: vendor/bin/phpunit
+      run: php bin/phpunit
